@@ -1,14 +1,25 @@
 {
-  "name": "com.google.play.common",
+  "name": "@playwind/com.google.play.common",
   "displayName": "Google Play Common",
   "description": "The Google Play Common package provides common files required by some Google Play packages, such as Play Instant.\n\nThis package doesn't provide any features when installed separately.",
   "version": "1.7.0",
   "unity": "2017.4",
-  "author": {
-    "name": "Google LLC"
-  },
+  "author": "Google LLC",
   "dependencies": {
     "com.google.android.appbundle": "1.7.0"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinatcg/GooglePlayCommon.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/xinatcg/GooglePlayCommon/issues"
+  },
+  "homepage": "https://github.com/xinatcg/GooglePlayCommon#readme"
 }
